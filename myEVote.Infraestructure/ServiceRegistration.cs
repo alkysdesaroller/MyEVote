@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using myEVote.Infraestructure.Persistence.Context;
 
-namespace myEVote.Infraestructure.Persistence;
+namespace myEVote.Infraestructure;
 
 public static class ServiceRegistration
 {

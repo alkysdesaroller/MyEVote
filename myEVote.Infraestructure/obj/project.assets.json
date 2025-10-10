@@ -1599,6 +1599,23 @@
           }
         }
       },
+      "myEVote.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.9",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.9",
+          "myEVote.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/myEVote.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/myEVote.Application.dll": {}
+        }
+      },
       "myEVote.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -4718,6 +4735,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "myEVote.Application/1.0.0": {
+      "type": "project",
+      "path": "../myEVote.Application/myEVote.Application.csproj",
+      "msbuildProject": "../myEVote.Application/myEVote.Application.csproj"
+    },
     "myEVote.Domain/1.0.0": {
       "type": "project",
       "path": "../myEVote.Domain/myEVote.Domain.csproj",
@@ -4731,6 +4753,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.9",
       "Microsoft.Extensions.Configuration.Abstractions >= 9.0.9",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.9",
+      "myEVote.Application >= 1.0.0",
       "myEVote.Domain >= 1.0.0"
     ]
   },
@@ -4767,6 +4790,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\alna7\\OneDrive\\Desktop\\myEVote\\myEVote.Application\\myEVote.Application.csproj": {
+              "projectPath": "C:\\Users\\alna7\\OneDrive\\Desktop\\myEVote\\myEVote.Application\\myEVote.Application.csproj"
+            },
             "C:\\Users\\alna7\\OneDrive\\Desktop\\myEVote\\myEVote.Domain\\myEVote.Domain.csproj": {
               "projectPath": "C:\\Users\\alna7\\OneDrive\\Desktop\\myEVote\\myEVote.Domain\\myEVote.Domain.csproj"
             }

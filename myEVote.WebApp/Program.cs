@@ -1,7 +1,12 @@
+using myEVote.Infraestructure;
+using myEVote.Infraestructure.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddPersistenceInfraesctruture(builder.Configuration);
 
 var app = builder.Build();
 
