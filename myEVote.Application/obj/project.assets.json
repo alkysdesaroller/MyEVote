@@ -1598,6 +1598,22 @@
             "rid": "win"
           }
         }
+      },
+      "myEVote.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.9",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.9"
+        },
+        "compile": {
+          "bin/placeholder/myEVote.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/myEVote.Domain.dll": {}
+        }
       }
     }
   },
@@ -4701,6 +4717,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "myEVote.Domain/1.0.0": {
+      "type": "project",
+      "path": "../myEVote.Domain/myEVote.Domain.csproj",
+      "msbuildProject": "../myEVote.Domain/myEVote.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4709,7 +4730,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.9",
       "Microsoft.Extensions.Configuration.Abstractions >= 9.0.9",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.9"
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.9",
+      "myEVote.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4744,7 +4766,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\alna7\\OneDrive\\Desktop\\myEVote\\myEVote.Domain\\myEVote.Domain.csproj": {
+              "projectPath": "C:\\Users\\alna7\\OneDrive\\Desktop\\myEVote\\myEVote.Domain\\myEVote.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

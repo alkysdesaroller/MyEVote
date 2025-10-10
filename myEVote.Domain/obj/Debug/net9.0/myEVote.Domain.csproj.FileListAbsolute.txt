@@ -1,0 +1,15 @@
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\bin\Debug\net9.0\myEVote.Domain.deps.json
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\bin\Debug\net9.0\myEVote.Domain.runtimeconfig.json
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\bin\Debug\net9.0\myEVote.Domain.dll
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\bin\Debug\net9.0\myEVote.Domain.pdb
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.csproj.AssemblyReference.cache
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.AssemblyInfoInputs.cache
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.AssemblyInfo.cs
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.sourcelink.json
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.dll
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\refint\myEVote.Domain.dll
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.pdb
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\myEVote.Domain.genruntimeconfig.cache
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Domain\obj\Debug\net9.0\ref\myEVote.Domain.dll
