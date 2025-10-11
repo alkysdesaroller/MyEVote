@@ -1,5 +1,4 @@
 using myEVote.Infraestructure;
-using myEVote.Infraestructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddPersistenceInfraesctruture(builder.Configuration);
+//builder.Services.AddAplicationLayer();
 
 var app = builder.Build();
 

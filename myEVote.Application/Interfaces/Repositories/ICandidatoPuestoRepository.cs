@@ -5,7 +5,7 @@ namespace myEVote.Application.Interfaces.Repositories;
 
 public interface ICandidatoPuestoRepository : IGenericRepository<CandidatoPuesto>
 {
-    Task<List<CandidatoPuesto>> GetAllActivosAsync(int partidoPoliticoId);
+    Task<List<CandidatoPuesto>> GetActivosByPartidoIdAsync(int partidoPoliticoId);
     Task<bool> ExistsAsignacionAsync(int candidatoId, int puestoElectivoId, int partidoPoliticoId);
     Task<CandidatoPuesto> GetByCandidatoPuestoAsync(int candidatoId, int puestoElectivoId);
         

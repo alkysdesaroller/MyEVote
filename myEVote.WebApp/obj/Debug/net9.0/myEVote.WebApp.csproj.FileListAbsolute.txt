@@ -231,3 +231,5 @@ C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.WebApp\obj\Debug\net9.0\refint\m
 C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.WebApp\obj\Debug\net9.0\myEVote.WebApp.pdb
 C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.WebApp\obj\Debug\net9.0\myEVote.WebApp.genruntimeconfig.cache
 C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.WebApp\obj\Debug\net9.0\ref\myEVote.WebApp.dll
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.WebApp\bin\Debug\net9.0\myEVote.Application.dll
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.WebApp\bin\Debug\net9.0\myEVote.Application.pdb

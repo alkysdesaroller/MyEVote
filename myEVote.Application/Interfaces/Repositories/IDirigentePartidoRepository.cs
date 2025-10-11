@@ -6,6 +6,6 @@ namespace myEVote.Application.Interfaces.Repositories;
 public interface IDirigentePartidoRepository : IGenericRepository<DirigentePartido>
 {
     Task<DirigentePartido> GetByUsuarioAsync(int usuarioId);
-    Task<bool> ExistsByUsuarioIdAsync(int candidatoId);
+    Task<bool> ExistsByUsuarioIdAsync(int usuarioId);
     
 }

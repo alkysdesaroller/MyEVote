@@ -2,6 +2,6 @@
 
 public enum EstadoEleccion
 {
-    Enproceso = 1, 
+    EnProceso = 1, 
     Finalizada = 2 
 }
