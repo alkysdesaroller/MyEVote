@@ -5,7 +5,7 @@ namespace myEVote.Domain.Entities;
 
 public class Eleccion : BaseEntity
 {
-    public string Nombre { get; set; }
+    public string Nombre { get; set; } = string.Empty;
     public DateTime FechaEleccion { get; set; }
     public EstadoEleccion Estado { get; set; }
     
