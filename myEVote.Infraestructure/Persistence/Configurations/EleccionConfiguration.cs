@@ -18,7 +18,7 @@ public class EleccionConfiguration : IEntityTypeConfiguration<Eleccion>
         builder.Property(e => e.FechaEleccion)
             .IsRequired();
 
-        builder.Property(e => e.EstadoEleccion)
+        builder.Property(e => e.Estado)
             .IsRequired();
 
         builder.Property(e => e.FechaCreacion)

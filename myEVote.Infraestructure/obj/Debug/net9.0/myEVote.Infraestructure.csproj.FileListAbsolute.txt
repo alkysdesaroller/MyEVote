@@ -16,3 +16,5 @@ C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Infraestructure\obj\Debug\net9.0
 C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Infraestructure\obj\Debug\net9.0\myEVote.Infraestructure.pdb
 C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Infraestructure\obj\Debug\net9.0\myEVote.Infraestructure.genruntimeconfig.cache
 C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Infraestructure\obj\Debug\net9.0\ref\myEVote.Infraestructure.dll
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Infraestructure\bin\Debug\net9.0\myEVote.Application.dll
+C:\Users\alna7\OneDrive\Desktop\myEVote\myEVote.Infraestructure\bin\Debug\net9.0\myEVote.Application.pdb

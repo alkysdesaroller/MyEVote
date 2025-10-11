@@ -7,7 +7,7 @@ public class Eleccion : BaseEntity
 {
     public string Nombre { get; set; }
     public DateTime FechaEleccion { get; set; }
-    public EstadoEleccion EstadoEleccion { get; set; }
+    public EstadoEleccion Estado { get; set; }
     
     public ICollection<Voto>? Votos { get; set; }
 }

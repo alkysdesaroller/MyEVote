@@ -18,8 +18,8 @@ public class CiudadanoRepository(MyEVoteContext context) : GenericRepository<Ciu
     {
         if (excludeId.HasValue)
         {
-            return await context.Ciudadanos.AnyAsync(c => c.Cedula == cedula && c.Id != excludeId.Value);
+            return await _context.Ciudadanos.AnyAsync(c => c.Cedula == cedula && c.Id != excludeId.Value);
         }
-        return await context.Ciudadanos.AnyAsync(c => c.Cedula == cedula);
+        return await _context.Ciudadanos.AnyAsync(c => c.Cedula == cedula);
     }
 }
