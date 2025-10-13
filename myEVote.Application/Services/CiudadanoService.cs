@@ -30,7 +30,15 @@ public class CiudadanoService : GenericService<Ciudadano, CiudadanoDto, SaveCand
 
     public async Task UpdateAsync(SaveCiudadanoDto dto, int id)
     {
-        throw new NotImplementedException();
+        var ciudadano = await _repository.GetByIdAsync(id);
+            
+        ciudadano.Nombre = dto.Nombre;
+        ciudadano.Apellido = dto.Apellido;
+        ciudadano.Email = dto.Email;
+        ciudadano.Cedula = dto.Cedula;
+        ciudadano.FechaModificacion = DateTime.Now;
+
+        await _repository.UpdateAsync(ciudadano, id);
     }
     
     public async Task<CiudadanoDto> GetByCedulaAsync(string cedula)

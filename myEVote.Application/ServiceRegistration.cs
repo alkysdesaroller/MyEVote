@@ -18,7 +18,7 @@ public static class ServiceRegistration
         // Servicio Genérico
         services.AddTransient(typeof(IGenericService<,>), typeof(GenericService<,,>));
 
-        /* Servicios Específicos
+        // Servicios Específicos
         services.AddTransient<ICiudadanoService, CiudadanoService>();
         services.AddTransient<IUsuarioService, UsuarioService>();
         services.AddTransient<IPuestoElectivoService, PuestoElectivoService>();
@@ -31,7 +31,7 @@ public static class ServiceRegistration
         services.AddTransient<IEleccionService, EleccionService>();
         services.AddTransient<IVotoService, VotoService>();
         services.AddTransient<IAccountService, AccountService>();
-        */
+        
         #endregion
     }
 }

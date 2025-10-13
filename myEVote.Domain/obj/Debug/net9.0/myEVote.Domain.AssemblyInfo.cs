@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("myEVote.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8604ae49fb28818f0f4649f158e271d3d0eec3ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b7559816adbd56d1b3ce2e8cb4d78f6da490ecf")]
 [assembly: System.Reflection.AssemblyProductAttribute("myEVote.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("myEVote.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

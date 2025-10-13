@@ -10,6 +10,6 @@ public interface IEleccionService
     Task<EleccionDto> CreateEleccionAsync(SaveEleccionDto dto);
     Task FinalizarEleccionAsync(int id);
     Task<List<ResultadoPuestoDto>> GetResultadosAsync(int eleccionId);
-    Task<ResumenElectoralDto> GetResumenByAnioAsync(int anio);
+    Task<ResumenElectoralDto> GetResumenByYearAsync(int anio);
     Task<bool> CanCreateEleccionAsync();
 }
