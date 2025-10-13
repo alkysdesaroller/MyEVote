@@ -6,7 +6,7 @@ using myEVote.Infraestructure.Persistence.Context;
 
 namespace myEVote.Infraestructure.Persistence.Repositories;
 
-public class PuestoElectivoRepository(MyEVoteContext context) : GenericRepository<PuestoElectivo>(context), IPuestoElectivoRespository
+public class PuestoElectivoRepository(MyEVoteContext context) : GenericRepository<PuestoElectivo>(context), IPuestoElectivoRepository
 {
     private readonly MyEVoteContext _context = context;
 

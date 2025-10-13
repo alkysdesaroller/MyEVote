@@ -3,7 +3,7 @@ using myEVote.Domain.Entities;
 
 namespace myEVote.Application.Interfaces.Repositories;
 
-public interface IPuestoElectivoRespository : IGenericRepository<PuestoElectivo>
+public interface IPuestoElectivoRepository : IGenericRepository<PuestoElectivo>
 {
     Task<List<PuestoElectivo>> GetAllActivosAsync();
 }

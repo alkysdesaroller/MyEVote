@@ -31,9 +31,9 @@ public static class ServiceRegistration
         // Repositorios Específicos
         services.AddTransient<ICiudadanoRepository, CiudadanoRepository>();
         services.AddTransient<IUsuarioRepository, UsuarioRepository>();
-        services.AddTransient<IPuestoElectivoRespository, PuestoElectivoRepository>();
+        services.AddTransient<IPuestoElectivoRepository, PuestoElectivoRepository>();
         services.AddTransient<IPartidoPoliticoRepository, PartidoPoliticoRepository>();
-        services.AddTransient<ICandidatoRespository, CandidatoRepository>();
+        services.AddTransient<ICandidatoRepository, CandidatoRepository>();
         services.AddTransient<ICandidatoPuestoRepository, CandidatoPuestoRepository>();
         services.AddTransient<IDirigentePartidoRepository, DirigentePartidoRepository>();
         services.AddTransient<IAlianzaPoliticaRepository, AlianzaPoliticaRepository>();

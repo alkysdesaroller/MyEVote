@@ -12,10 +12,10 @@ public class PartidoPolitico : BaseEntity
     public EstadoEntidad Estado { get; set; }
     
     // para navegación
-    public ICollection<Candidato> Candidatos { get; set; }
-    public ICollection<DirigentePartido> DirigentePartidos { get; set; }
-    public ICollection<AlianzaPolitica> AlianzasComoPartido1 { get; set; }
-    public ICollection<AlianzaPolitica> AlianzasComoPartido2 { get; set; }
-    public ICollection<SolicitudAlianza> SolicitudesEnviadas { get; set; }
-    public ICollection<SolicitudAlianza> SolicitudesRecibidas { get; set; }
+    public ICollection<Candidato> Candidatos { get; set; } = null!;
+    public ICollection<DirigentePartido> DirigentePartidos { get; set; } = null!;
+    public ICollection<AlianzaPolitica> AlianzasComoPartido1 { get; set; } = null!;
+    public ICollection<AlianzaPolitica> AlianzasComoPartido2 { get; set; } = null!;
+    public ICollection<SolicitudAlianza> SolicitudesEnviadas { get; set; } = null!;
+    public ICollection<SolicitudAlianza> SolicitudesRecibidas { get; set; } = null!;
 }
