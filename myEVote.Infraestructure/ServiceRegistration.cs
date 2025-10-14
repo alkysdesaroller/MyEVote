@@ -3,8 +3,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using myEVote.Application.Interfaces.Repositories;
 using myEVote.Application.Interfaces.Repositorios;
+using myEVote.Application.Interfaces.Services;
 using myEVote.Infraestructure.Persistence.Context;
 using myEVote.Infraestructure.Persistence.Repositories;
+using myEVote.Infraestructure.Shared.Services;
 
 namespace myEVote.Infraestructure;
 
@@ -42,6 +44,12 @@ public static class ServiceRegistration
         services.AddTransient<IVotoRepository, VotoRepository>();
         
 
+        #endregion
+
+        #region Shared 
+        services.AddTransient<IEmailService, EmailService>();
+        services.AddTransient<IOcrService, OcrService>();
+        services.AddTransient<IFileUploadService, FileUploadService>();
         #endregion
     }
 }

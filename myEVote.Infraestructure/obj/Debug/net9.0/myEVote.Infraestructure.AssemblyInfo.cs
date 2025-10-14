@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("myEVote.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b7559816adbd56d1b3ce2e8cb4d78f6da490ecf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cefaff9ef803943e216f7c90adbed12104b541a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("myEVote.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("myEVote.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

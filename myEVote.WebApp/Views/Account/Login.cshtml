@@ -1,0 +1,67 @@
+﻿@model myEVote.ViewModel.Account.LoginViewModel
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión - eVote360</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6 col-lg-5">
+                <div class="card shadow">
+                    <div class="card-body p-5">
+                        <div class="text-center mb-4">
+                            <h2 class="text-primary"><i class="bi bi-person-circle"></i> eVote360</h2>
+                            <p class="text-muted">Sistema Electoral</p>
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                @Model.ErrorMessage
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        }
+
+                        <form asp-action="Login" method="post">
+                            <div class="mb-3">
+                                <label asp-for="NombreUsuario" class="form-label"></label>
+                                <input asp-for="NombreUsuario" class="form-control" placeholder="Ingrese su usuario" />
+                                <span asp-validation-for="NombreUsuario" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Contrasena" class="form-label"></label>
+                                <input asp-for="Contrasena" class="form-control" placeholder="Ingrese su contraseña" />
+                                <span asp-validation-for="Contrasena" class="text-danger"></span>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="bi bi-box-arrow-in-right"></i> Iniciar Sesión
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="text-center mt-4">
+                            <a asp-controller="Home" asp-action="Index" class="text-decoration-none">
+                                <i class="bi bi-arrow-left"></i> Volver al inicio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
