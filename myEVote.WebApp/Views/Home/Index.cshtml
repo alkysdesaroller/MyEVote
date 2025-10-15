@@ -1,8 +1,32 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Sistema de Votación";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Bienvenido a eVote360</h1>
+    <p class="lead">Sistema de Votación Electrónica</p>
+    
+    <div class="row mt-5">
+        <div class="col-md-6 offset-md-3">
+            <div class="card shadow">
+                <div class="card-body p-5">
+                    <h3 class="mb-4"><i class="bi bi-person-check-fill text-primary"></i> Verificación de Elector</h3>
+                    
+                    <form asp-controller="Votacion" asp-action="Verificar" method="post">
+                        <div class="mb-3">
+                            <label class="form-label">Número de Documento de Identidad</label>
+                            <input type="text" name="documentoIdentidad" class="form-control form-control-lg" 
+                                   placeholder="000-0000000-0" required />
+                        </div>
+                        
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="bi bi-check-circle"></i> Votar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("myEVote.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b7559816adbd56d1b3ce2e8cb4d78f6da490ecf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1142275452879627cbaa9e6a41eb7ba6be0a106")]
 [assembly: System.Reflection.AssemblyProductAttribute("myEVote.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("myEVote.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

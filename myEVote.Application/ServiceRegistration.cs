@@ -15,8 +15,6 @@ public static class ServiceRegistration
         #endregion
         
         #region Services
-        // Servicio Genérico
-        services.AddTransient(typeof(IGenericService<,>), typeof(GenericService<,,>));
 
         // Servicios Específicos
         services.AddTransient<ICiudadanoService, CiudadanoService>();
