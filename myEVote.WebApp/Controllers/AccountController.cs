@@ -16,7 +16,8 @@ public class AccountController(IAccountService accountService) : Controller
                 return RedirectToAction("Index", "Home");
             }
 
-            return View();
+            var vm = new LoginViewModel();
+            return View(vm);
         }
 
         [HttpPost]

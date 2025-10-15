@@ -27,8 +27,6 @@ public static class ServiceRegistration
         #endregion
 
         #region Repositories
-        // Repositorio Genérico
-        services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             
         // Repositorios Específicos
         services.AddTransient<ICiudadanoRepository, CiudadanoRepository>();
